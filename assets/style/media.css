@@ -1,0 +1,303 @@
+@media (max-width: 1366.98px) {
+  /*=====================================about-the-center-media-start======================================*/
+  .about-the-center-cnt {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .about-the-center-slider,
+  .about-the-center-block {
+    width: 100%;
+    margin: 35px 0 20px 0;
+  }
+
+  .about-text {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .about-the-center-slider .slick-prev,
+  .about-the-center-slider .slick-next {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .about-the-center-slider .slick-prev {
+    right: unset;
+    left: 0;
+  }
+
+  .about-the-center-slider .slick-next {
+    right: 0;
+  }
+
+  /*=====================================about-the-center-media-end=======================================*/
+
+  .fp-tooltip {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1279.98px) {
+  .nav-block {
+    left: -320px;
+    overflow: hidden;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .close-menu {
+    display: block;
+  }
+  .header-block {
+    max-width: 1137px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .header-box__left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .wrapper-content {
+    width: 100%;
+  }
+
+  #fp-nav {
+    display: none;
+    padding-top: 40px;
+  }
+}
+@media (max-width: 1199.98px) {
+  /*=====================================our-specialists-media-start=====================================*/
+  .specialists-block {
+    width: 318px;
+  }
+
+  /*=====================================our-specialists-media-end=======================================*/
+
+  /*====================================about-the-center-media-start=====================================*/
+  .about-text {
+    font-size: 14px;
+  }
+
+  /*=====================================about-the-center-media-end=======================================*/
+
+  /*========================================license-media-start===========================================*/
+  .license-big {
+    height: auto;
+  }
+  /*=========================================license-media-end============================================*/
+}
+
+@media (max-width: 991.98px) {
+  /*====================================static-media-start================================================*/
+  .container {
+    padding: 0 16px;
+  }
+  /*=====================================static-media-end=================================================*/
+
+  /*========================================surgery-media-start===========================================*/
+  .surgery h1 {
+    font-size: 64px;
+  }
+
+  /*=========================================surgery-media-end============================================*/
+
+  /*========================================stage-media-start=============================================*/
+  .stage-cnt {
+    margin-top: 60px;
+  }
+  .one-stage {
+    width: 50%;
+  }
+
+  /*========================================stage-media-end===============================================*/
+
+  /*==========================================map=-media-start============================================*/
+  .map-main {
+    height: 365px;
+  }
+
+  .office-contacts-main {
+    padding: 32px 0;
+  }
+
+  /*===========================================map-media-end===============================================*/
+
+  /*==========================================footer-media-start===========================================*/
+  .footer-cnt {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .footer-cnt p {
+    width: 100%;
+    max-width: unset;
+    margin-bottom: 25px;
+  }
+  /*==========================================footer-media-end=============================================*/
+}
+
+@media (max-width: 767.98px) {
+
+  .header-phone__icon--mob {
+    width: 31px;
+    height: 31px;
+    display: block;
+    border-radius: 50%;
+    background: #45B6CA;
+    padding: 7px;
+  }
+
+  .header-phone__icon--mob span {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .header-box__phone,
+  .header-btn {
+    display: none;
+  }
+  
+  .fixed-js.sticky {
+    background-color: white;
+  }
+  .fixed-js .header-box__nav--icone svg {
+    fill: white;
+  }
+  .fixed-js.sticky .header-box__nav--icone svg {
+    fill: black;
+  }
+  .fixed-js .header-box__logo {
+    -webkit-filter: inherit;
+    filter: inherit;
+  }
+  .fixed-js.sticky .header-box__logo {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+  }
+  /*====================================surgery-media-start======================================*/
+  .surgery h1 {
+    font-size: 50px;
+  }
+
+  /*====================================surgery-media-end======================================*/
+
+  /*=====================================our-specialists-media-start=======================================*/
+
+  .specialists-block {
+    width: 230px;
+  }
+
+  /*=====================================our-specialists-media-end=======================================*/
+  /*========================================stage-media-start=============================================*/
+  .stage-cnt {
+    margin-top: 40px;
+  }
+  .work-stages {
+    counter-reset: section;
+    margin: 26px 0 40px 0;
+  }
+  /*========================================stage-media-end===============================================*/
+
+  /*====================================surgery-media-start======================================*/
+  .surgery span {
+    font-size: 31px;
+    width: 100%;
+    line-height: normal;
+    left: 0;
+    padding: 0 15px;
+  }
+
+  /*====================================surgery-media-end======================================*/
+  .about-the-center-block {
+    height: 300px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  /*====================================static-media-start================================================*/
+
+  .static-cnt h3 {
+    font-size: 34px;
+    text-align: center;
+  }
+  /*====================================static-media-end==================================================*/
+
+  /*====================================surgery-media-start======================================*/
+  .surgery h1 {
+    font-size: 30px;
+  }
+  .surgery:before {
+    display: none;
+  }
+
+  /*====================================surgery-media-end======================================*/
+  /*=====================================our-specialists-media-start=======================================*/
+  .our-specialists-cnt {
+    margin: 40px 0;
+  }
+  .specialists-block {
+    width: 100%;
+  }
+
+  .static-slider .slick-prev {
+    left: 0;
+  }
+
+  .static-slider .slick-next {
+    right: 0;
+  }
+
+  /*=====================================our-specialists-media-end=======================================*/
+
+  /*=====================================stage-media-start========================================*/
+  .one-stage {
+    width: 100%;
+  }
+
+  /*======================================stage-media-end=========================================*/
+  /*=====================================license-media-start======================================*/
+  .license-slider {
+    margin: 52px 0 0 0;
+  }
+
+  .license-big {
+    width: auto;
+  }
+
+  /*=====================================license-media-end========================================*/
+  /*=======================================map-media-start========================================*/
+  .map {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .map-main {
+    position: relative;
+  }
+
+  .office-contacts-main {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  /*=======================================map-media-end==========================================*/
+}
